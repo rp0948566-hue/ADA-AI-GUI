@@ -1,2 +1,6 @@
 - [x] Edit index.html to add proper HTML structure, link style.css in <head>, and ch1.js at end of <body>
 - [x] Run the project by opening index.html in the browser
+- [ ] Update index.html with provided HTML, add header, color-controls, controls, chat-container
+- [ ] Update style.css with provided CSS and add chat styles
+- [ ] Update ch1.js with provided JS, add color scheme functionality, morph controls, drag for input-container, AI chat with OpenAI API
+- [ ] Test drag functionality and AI chat (provide API key for AI)
