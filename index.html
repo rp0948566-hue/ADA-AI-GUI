@@ -12,7 +12,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
 </head>
 <body>
+    <div class="header">
+        <h1>3D Text Morphing</h1>
+        <button id="chatToggleBtn" class="chat-toggle-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="color-controls">
+        <div class="color-scheme">
+            <button class="active" data-scheme="cosmic">
+                <div class="color-preview cosmic"></div>
+                Cosmic
+            </button>
+            <button data-scheme="neon">
+                <div class="color-preview neon"></div>
+                Neon
+            </button>
+            <button data-scheme="sunset">
+                <div class="color-preview sunset"></div>
+                Sunset
+            </button>
+            <button data-scheme="ocean">
+                <div class="color-preview ocean"></div>
+                Ocean
+            </button>
+        </div>
+    </div>
+
     <div id="container"></div>
+
+    <div class="controls">
+        <button id="sphereBtn" class="active">Sphere</button>
+        <button id="cubeBtn">Cube</button>
+        <button id="torusBtn">Torus</button>
+    </div>
 
     <div class="input-container">
         <div class="input-wrapper">
@@ -27,6 +63,17 @@
             </button>
         </div>
     </div>
+
+    <div class="chat-container">
+        <div class="chat-wrapper">
+            <div id="chatMessages"></div>
+            <div class="chat-input-wrapper">
+                <input type="text" id="chatInput" placeholder="Ask me anything...">
+                <button id="chatBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
     <script src="ch1.js"></script>
 </body>
 </html>
