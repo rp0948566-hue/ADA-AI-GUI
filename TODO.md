@@ -1,0 +1,2 @@
+- [x] Edit index.html to add proper HTML structure, link style.css in <head>, and ch1.js at end of <body>
+- [x] Run the project by opening index.html in the browser
