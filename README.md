@@ -32,5 +32,5 @@ Contribute Code: We welcome pull requests for new features, performance improvem
 
 Share Your Creations: Show us what you've built using the ADA-Ai GUI! Tag us on social media or post in our discussions.
 
-Let's redefine what it means to interact with Artificial Intelligence.
+Let's redefine what it means to interact with Artificial Intelligence.                                                                                                        
 ▄︻デ══━一💥 Try ADA-Ai Gui version now it is Live LIVE🔴                                                                                                                              https://ada-ai.tiiny.site
